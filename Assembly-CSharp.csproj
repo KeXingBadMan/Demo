@@ -68,12 +68,15 @@
     <Compile Include="Assets\Scripts\CharsGenerator.cs" />
     <Compile Include="Assets\Scripts\ClassBuff.cs" />
     <Compile Include="Assets\Scripts\ClassSkill.cs" />
-    <Compile Include="Assets\Scripts\CollisionCondition.cs" />
+    <Compile Include="Assets\Scripts\Common\CollisionCondition.cs" />
+    <Compile Include="Assets\Scripts\Common\Player_motion.cs" />
+    <Compile Include="Assets\Scripts\Common\UIBase.cs" />
+    <Compile Include="Assets\Scripts\Common\UIManager.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\FileHelper\DataBase.cs" />
     <Compile Include="Assets\Scripts\GameRoot.cs" />
     <Compile Include="Assets\Scripts\Launch\Launch.cs" />
-    <Compile Include="Assets\Scripts\Player_motion.cs" />
+    <Compile Include="Assets\Scripts\Play\Play.cs" />
     <Compile Include="Assets\Scripts\SingleCharacter.cs" />
     <Compile Include="Assets\Scripts\SkillButton.cs" />
     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
@@ -82,8 +85,6 @@
     <Compile Include="Assets\Scripts\Start\UI\OptionUI.cs" />
     <Compile Include="Assets\Scripts\Start\UI\PlayUI.cs" />
     <Compile Include="Assets\Scripts\Start\UI\StartUI.cs" />
-    <Compile Include="Assets\Scripts\Start\UI\UIBase.cs" />
-    <Compile Include="Assets\Scripts\Start\UI\UIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

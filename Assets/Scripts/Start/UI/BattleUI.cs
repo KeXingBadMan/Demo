@@ -8,6 +8,10 @@ public class BattleUI : UIBase
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
         gameObject.SetActive(true);
+
+        //GameObject Pause = gameObject.transform.Find("Pause").gameObject;
+        //Pause.Find("Pause");
+        //Debug.Log("Set Pause Active");
         SoundManager.Instance.PlayBGM("打击战斗");
     }
 

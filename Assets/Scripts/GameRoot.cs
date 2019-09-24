@@ -13,7 +13,8 @@ public class GameRoot : MonoBehaviour
     {
         //Debug.Log("This is debug");
         UIManager.Instance.PushUIPanel("StartUI");
-        //DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(GameObject.Find("StartUI"));
     }
 
     /*void Update()

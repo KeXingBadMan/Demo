@@ -39,9 +39,9 @@ public class StartUI : UIBase
 
     public void GotoNewGame()
     {
-        //SceneManager.LoadScene("MapPlay");
-        string Map = RandomMap();
-        UIManager.Instance.PushUIPanel(Map);
+        SceneManager.LoadScene("Play");
+        //string Map = RandomMap();
+        //UIManager.Instance.PushUIPanel(Map);
     }
 
     public void GotoContinue()
