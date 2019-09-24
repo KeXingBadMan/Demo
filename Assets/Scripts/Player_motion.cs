@@ -26,7 +26,12 @@ public class Player_motion : MonoBehaviour
     // Update方法一旦调用结束以后进入这里算出重置摄像机的位置  
     void LateUpdate()
     {
-        GameObject.Find("Main Camera").GetComponent<Transform>().position = this.transform.position;
+        Vector3 camera = GameObject.Find("Main Camera").GetComponent<Transform>().position;
+        camera.x = this.transform.position.x;
+        camera.y = this.transform.position.y;
+        //Vector2 camera = this.transform.position;
+        //GameObject.Find("Main Camera").GetComponent<Transform>().position = this.transform.position;
+        GameObject.Find("Main Camera").GetComponent<Transform>().position = camera;
 
         // target为主角，缩放旋转的参照物  
         /*if (target)
