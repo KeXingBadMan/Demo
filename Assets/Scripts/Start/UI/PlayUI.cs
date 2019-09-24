@@ -8,6 +8,7 @@ public class PlayUI : UIBase
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
         gameObject.SetActive(true);
+        RandomMonster();
     }
 
     public override void DoOnPausing()
@@ -29,5 +30,20 @@ public class PlayUI : UIBase
     {
         UIManager.Instance.PopUIPanel();
     }
+
+    public void RandomMonster()
+    {
+        GameObject randommoster = GameObject.Find("RandomMonster");
+        if(Random.Range(1,11) < 6)
+        {
+            randommoster.SetActive(true);
+        }
+        else
+        {
+            randommoster.SetActive(false);
+        }
+    }
+
+
 
 }

@@ -9,17 +9,19 @@ public class Skill
     public string mName;//技能名字
     public int mSp;//技能sp
     public int mDamage;//造成伤害
+    public int mSpAdd;
 
     public virtual void mSpecialEffects()
     {
 
     }
 
-    public Skill(string faction, string name, int sp, int damage)
+    public Skill(string faction, string name, int sp, int damage,int spadd)
     {
         mFaction = faction;
         mName = name;
         mSp = sp;
         mDamage = damage;
+        mSpAdd = spadd;
     }
 }

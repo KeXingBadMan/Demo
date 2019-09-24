@@ -27,12 +27,11 @@ public class UIManager : MonoBehaviour
 
         AddUIBase("StartUI");
         AddUIBase("OptionUI");
-        //AddUIBase("Level1");
-        //AddUIBase("Level2");
         AddUIBase("Battle");
         AddUIBase("Map1-1");
         AddUIBase("Map1-2");
         AddUIBase("Map1");
+        AddUIBase("Map2");
     }
 
     //入栈，把界面显示出来

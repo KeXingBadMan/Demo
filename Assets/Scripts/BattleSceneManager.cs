@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.UI;
 public class BattleSceneManager : MonoBehaviour
 {
     public GameObject playerPrefab;
@@ -13,12 +13,13 @@ public class BattleSceneManager : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
     public List<Skill> playerSkills;
+    public List<Skill> playerBuffSkills;
     public List<Buff> playerBuffs;
     public List<GameObject> playerSkillButtons;
     public List<GameObject> playerBuffButtons;
     public int playerSP = 0;
     public int playerHP = 8;
-    public int playerMaxHP;
+    public int playerMaxHP = 20;
     public int enemySP = 0;
     public int enemyHP = 15;
     public bool playerTurn = true;
@@ -26,6 +27,8 @@ public class BattleSceneManager : MonoBehaviour
     public bool battleIsOver = false;
     public bool playerMoved = false;//玩家是否有选择技能；false：玩家尚未在该回合选择技能；true：玩家已选择技能。玩家点击技能按钮后会更改playerMoved 和usedSkill (参见SkillButton)
     public bool pickingBuff = true;
+    public GameObject dataBaseObj = null;
+    private DataBase dataBase = null;
     bool lastPlayerTurn = false;
 
     Skill enemySkill1;
@@ -34,17 +37,43 @@ public class BattleSceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerSkills.Add(new Skill("武当派", "Basic", 0, 3));
-        playerSkills.Add(new Skill("武当派", "BaGua", 3, 7));
-        playerSkills.Add(new Skill("武当派", "TaiJi", 10, 30));
-        playerSkills.Add(new Skill("武当派", "ChangQuan", 2, 5));
-        playerSkills.Add(new Skill("", "Skip", 0, 0));
+        //dataBaseObj = GameObject.Find("DataBase");
+        dataBase = dataBaseObj.GetComponent<DataBase>();
+        //Debug.Log(dataBase.GetSkillData()[1].Detail_DEC);
+        InitSkills();
+        //playerSkills.Add(new Skill("武当派", "Basic", 0, 3));
+        //playerSkills.Add(new Skill("武当派", "BaGua", 3, 7));
+        //playerSkills.Add(new Skill("武当派", "TaiJi", 10, 30));
+       // playerSkills.Add(new Skill("武当派", "ChangQuan", 2, 5));
+      //  playerSkills.Add(new Skill("", "Skip", 0, 0));
 
         playerBuffs.Add(new Buff("武当派", "HunYuan"));//战斗开始时执行的buff
         playerBuffs.Add(new Buff("武当派", "TaiJiXinFa"));//回合结束时执行的buff
         playerBuffs.Add(new Buff("武当派", "YiJinJing"));//回合开始时执行的buff
+        InitializeBattleScene();
+        InitializePlayerAndEnemy();
+        //InitializeBuffScene();
+    }
+    void InitSkills() {
+        playerSkills.Add(new Skill("武当派", "普通攻击", 0, 3,0));
+        playerSkills.Add(new Skill("", "跳过", 0, 0,0));
+        List<int> skillsLearned = dataBase.GetSkillHad();
+        List<CSkill> SkillData = dataBase.GetSkillData();
+       // List<Item> ItemData = dataBase.GetItemData();
 
-        InitializeBuffScene();
+        //Debug.Log("uuuu " + ItemData[1].Name);
+        for (int i = 0; i < skillsLearned.Count; i++) {
+            foreach (CSkill tempSkill in SkillData) {
+                Debug.Log("uuuu " + tempSkill.Name);
+                if (skillsLearned[i] == tempSkill.ID && tempSkill.Type == 1) {
+                    playerSkills.Add(new Skill("武当派", tempSkill.Name, tempSkill.SpCost, tempSkill.Damage,tempSkill.Sp_Add));
+                }
+                if (skillsLearned[i] == tempSkill.ID && tempSkill.Type == 2)
+                {
+                    playerBuffSkills.Add(new Skill("武当派", tempSkill.Name, tempSkill.SpCost, tempSkill.Damage, tempSkill.Sp_Add));
+                }
+            }
+        }
     }
 
     void InitializeBuffScene()
@@ -62,8 +91,16 @@ public class BattleSceneManager : MonoBehaviour
         }
     }
 
+    void InitializePlayerAndEnemy()
+    {
+        playerHP = PlayerPrefs.GetInt("PlayerHp");
+        //敵人的相關設定
+    }
+
     void InitializeBattleScene()//生成玩家敌人和技能按钮
     {
+        Destroy(confirmButton);
+        pickingBuff = false;
         playerMaxHP = playerHP;
 
         BuffOnBattleStart();//判定战斗开始时生效的buff
@@ -76,7 +113,8 @@ public class BattleSceneManager : MonoBehaviour
         {
             GameObject tempSkill = Instantiate(skillBPrefab);
             tempSkill.transform.parent = gameObject.transform;
-            tempSkill.GetComponentInChildren<TextMeshProUGUI>().text = playerSkills[i].mName;
+            //tempSkill.GetComponentInChildren<TextMeshProUGUI>().text = playerSkills[i].mName;
+            tempSkill.GetComponent<Text>().text= playerSkills[i].mName;
             tempSkill.GetComponent<SkillButton>().mySkill = playerSkills[i];
             tempSkill.GetComponent<SkillButton>().sceneManager = this;
             tempSkill.transform.position = new Vector2(300, i * 30 + 100);
@@ -101,12 +139,19 @@ public class BattleSceneManager : MonoBehaviour
 
     void PlayerTurn()//先更新玩家状态（增加sp）， 之后依据sp判定可用技能，最后依据玩家选择的技能更新玩家和怪物数据。
     {
-        print("player turn starts");
+        //print("player turn starts");
 
 
 
         if (!lastPlayerTurn && playerTurn)//确保每次运行playerturn时，一下内容只运行一次
         {
+            foreach(Skill tempbuff in playerBuffSkills)
+            {
+                if (tempbuff.mSpAdd > 0)
+                {
+                    playerSP += tempbuff.mSpAdd;
+                }
+            }
             lastPlayerTurn = playerTurn;
             print("玩家回合>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
             playerSP++;
@@ -131,6 +176,7 @@ public class BattleSceneManager : MonoBehaviour
             BuffOnAttack();//判定攻击时生效的buff
 
             playerSP -= usedSkill.mSp;
+            playerSP += usedSkill.mSpAdd;
             enemyHP -= actualDamage;
             CastSpecialEffect(usedSkill.mName);//特殊效果
             Debug.Log("玩家使用技能" + usedSkill.mName + "小怪-" + usedSkill.mDamage);
@@ -184,6 +230,18 @@ public class BattleSceneManager : MonoBehaviour
         if (enemyHP < 0 || playerHP < 0)
         {
             battleIsOver = true;
+            if (enemyHP < 0)
+            {
+                playerHP += 5;
+                if (playerHP > playerMaxHP) {
+                    playerHP = playerMaxHP;
+                }
+                PlayerPrefs.SetInt("PlayerHp", playerHP);
+                //win  恭喜獲得
+            }
+            else {
+                //lose
+            }
             Debug.Log("战斗结束");
 
         }

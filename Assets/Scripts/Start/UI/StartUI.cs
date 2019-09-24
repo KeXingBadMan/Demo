@@ -46,8 +46,7 @@ public class StartUI : UIBase
 
     public void GotoContinue()
     {
-        UIManager.Instance.PushUIPanel("Map1-2");
-        //UIManager.Instance.PushUIPanel("Level2");
+        //UIManager.Instance.PushUIPanel("Map1-2");
     }
 
     public string RandomMap()

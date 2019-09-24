@@ -29,11 +29,11 @@ public class DataBase : MonoBehaviour
         items = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/Scripts/FileHelper/Files/itemwardrobe.json"));
         skills = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/Scripts/FileHelper/Files/skillwardrobe.json"));
         ConstructDatabase();
-        //Debug.Log(itemDatabase[0].Detail);
+        //Debug.Log(itemDatabase[0].Name);
         //Debug.Log(skillDatabase[0].Detail);
-        AddItem(1000);
-        AddItem(1000);
-        AddItem(1000);
+        //AddSkill(4006);
+        AddSkill(3004);
+        AddSkill(2001);
         //AddSkill(1000);
 
     }
@@ -54,8 +54,9 @@ public class DataBase : MonoBehaviour
 
         for (int i = 0; i < skillData.Count; i++)
         {
-            skillDatabase.Add(new CSkill((int)skillData[i]["id"], skillData[i]["name"].ToString(), (int)skillData[i]["type"], skillData[i]["detail"].ToString(),
-                (int)skillData[i]["sect"], (int)skillData[i]["sp_consumption"],skillData[i]["path"].ToString()));
+            skillDatabase.Add(new CSkill((int)skillData[i]["id"], skillData[i]["name"].ToString(), (int)skillData[i]["type"], skillData[i]["detail_bg"].ToString(),
+               skillData[i]["detail_desc"].ToString(),(int)skillData[i]["sect"], (int)skillData[i]["sp_consump"],skillData[i]["path"].ToString(),(int)skillData[i]["level"],
+               (int)skillData[i]["damage"],(int)skillData[i]["sp_add"]));
         }
 
         if (PlayerPrefs.HasKey("items"))
@@ -210,20 +211,28 @@ public class CSkill
     public int ID { get; set; }
     public string Name { get; set; }
     public int Type { get; set; }
-    public string Detail { get; set; }
+    public string Detail_BG { get; set; }
+    public string Detail_DEC { get; set; }
     public int Sect { get; set; }
     public int SpCost { get; set; }
     public string Path { get; set; }
+    public int Level { get; set; }
+    public int Damage { get; set; }
+    public int Sp_Add { get; set; }
 
-    public CSkill(int _id, string _name, int _type, string _detail, int _sect, int _sp_consumption, string _path)
+    public CSkill(int _id, string _name, int _type, string _detail_bg, string _detail_dec, int _sect, int _sp_consumption, string _path , int _level, int _damage, int _sp_add)
     {
         this.ID = _id;
         this.Name = _name;
         this.Type = _type;
-        this.Detail = _detail;
+        this.Detail_BG = _detail_bg;
+        this.Detail_DEC = _detail_dec;
         this.Sect= _sect;
         this.SpCost = _sp_consumption;
         this.Path = _path;
+        this.Level = _level;
+        this.Damage = _damage;
+        this.Sp_Add = _sp_add;
     }
 
     public CSkill() {
