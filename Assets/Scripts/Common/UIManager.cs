@@ -32,6 +32,8 @@ public class UIManager : MonoBehaviour
         AddUIBase("Map1-2");
         AddUIBase("Map1");
         AddUIBase("Map2");
+        AddUIBase("Map3");
+        AddUIBase("Map4");
     }
 
     //入栈，把界面显示出来

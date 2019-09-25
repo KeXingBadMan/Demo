@@ -15,9 +15,31 @@ public class Player_motion : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        //玩家朝向，默认朝下
-        anim.SetFloat("LookX", 0);
-        anim.SetFloat("LookY", -1);
+        GameObject Map = this.gameObject.transform.parent.gameObject;
+        Debug.Log(Map.name);
+        if(Map.name == "Map1") {
+            //玩家朝向，默认朝下
+            anim.SetFloat("LookX", 0);
+            anim.SetFloat("LookY", -1);
+        }
+        else if(Map.name == "Map2")
+        {
+            //玩家朝向，默认朝左
+            anim.SetFloat("LookX", -1);
+            anim.SetFloat("LookY", 0);
+        }
+        else if (Map.name == "Map3")
+        {
+            //玩家朝向，默认朝左
+            anim.SetFloat("LookX", -1);
+            anim.SetFloat("LookY", 0);
+        }
+        else if (Map.name == "Map4")
+        {
+            //玩家朝向，默认朝上
+            anim.SetFloat("LookX", 1);
+            anim.SetFloat("LookY", 0);
+        }
         anim.SetFloat("speed", 0);
         //GameObject.Find("Main Camera").GetComponent<GameRoot>().Player = this.gameObject;
         //GameObject.Find("Main Camera").GetComponent<GameRoot>().WalkHorizontalSpeed = this.WalkHorizontalSpeed;

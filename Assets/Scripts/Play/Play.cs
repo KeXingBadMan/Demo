@@ -10,25 +10,32 @@ public class Play : MonoBehaviour
         //UIManager.Instance.PushUIPanel("Map2");
         //UIManager.Instance.PushUIPanel(RandomMap());
 
-        //if (GameObject.Find("Map1"))
-        //{
-        //    UIManager.Instance.PushUIPanel("Map1");
-        //}
-        //else if (GameObject.Find("Map2"))
-        //{
-        //    UIManager.Instance.PushUIPanel("Map2");
-        //}
-        //else
-        //{
-        //    string Map = "Map2";
-        //    UIManager.Instance.PushUIPanel(Map);
-        //    DontDestroyOnLoad(GameObject.Find(Map));
-        //}
+        if (GameObject.Find("Map1"))
+        {
+            UIManager.Instance.PushUIPanel("Map1");
+        }
+        else if (GameObject.Find("Map2"))
+        {
+            UIManager.Instance.PushUIPanel("Map2");
+        }
+        else if (GameObject.Find("Map3"))
+        {
+            UIManager.Instance.PushUIPanel("Map3");
+        }
+        else if (GameObject.Find("Map4"))
+        {
+            UIManager.Instance.PushUIPanel("Map4");
+        }
+        else
+        {
+            string Map = RandomMap();
+            UIManager.Instance.PushUIPanel(Map);
+            DontDestroyOnLoad(GameObject.Find(Map));
+        }
 
         //string Map = RandomMap();
-        string Map = "Map2";
-        UIManager.Instance.PushUIPanel(Map);
-        DontDestroyOnLoad(GameObject.Find(Map));
+        //UIManager.Instance.PushUIPanel(Map);
+        //DontDestroyOnLoad(GameObject.Find(Map));
     }
 
     // Update is called once per frame
@@ -42,7 +49,7 @@ public class Play : MonoBehaviour
         string Map = "Map";
 
         //Random.Range(min,max)返回一个随机整数，在min(包含)和max(不包含)之间
-        int MapNum = Random.Range(1, 3);
+        int MapNum = Random.Range(1, 5);
         Debug.Log(MapNum);
         Map = Map + MapNum;
         Debug.Log(Map);
