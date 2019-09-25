@@ -8,8 +8,9 @@ public class StartUI : UIBase
     public override void DoOnEntering()
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
-        SoundManager.Instance.PlayBGM("少年游");
+        //SoundManager.Instance.PlayBGM("少年游");
         gameObject.SetActive(true);
+        Debug.Log("StartUI Enter");
     }
 
     public override void DoOnPausing()
@@ -24,12 +25,8 @@ public class StartUI : UIBase
 
     public override void DoOnExiting()
     {
-        //Debug.Log("exit!!!!!");
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #else
-            Application.Quit();
-        #endif
+        //Destroy(gameObject, 0);
+        gameObject.SetActive(false);
     }
 
     public void GotoOption()
@@ -39,6 +36,7 @@ public class StartUI : UIBase
 
     public void GotoNewGame()
     {
+        UIManager.Instance.PopUIPanel();
         SceneManager.LoadScene("Play");
         //string Map = RandomMap();
         //UIManager.Instance.PushUIPanel(Map);
@@ -47,6 +45,16 @@ public class StartUI : UIBase
     public void GotoContinue()
     {
         //UIManager.Instance.PushUIPanel("Map1-2");
+    }
+
+    public void ExitGame()
+    {
+        //Debug.Log("exit!!!!!");
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+             Application.Quit();
+        #endif
     }
 
     public string RandomMap()

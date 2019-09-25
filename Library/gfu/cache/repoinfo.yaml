@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-09-24T21:37:31.908+08:00
-  initializedAtString: 2019-09-24T21:37:31.908+08:00
+  lastUpdatedAtString: 2019-09-25T11:51:54.100+08:00
+  initializedAtString: 2019-09-25T11:51:54.100+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/KeXingBadMan/Demo.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: NewStart0924
+    tracking: origin/NewStart0924
   currentConfigBranch:
-    name: master
+    name: NewStart0924
     remote:
       name: origin
       url: https://github.com/KeXingBadMan/Demo.git
-    trackingBranch: master
+    trackingBranch: NewStart0924
   currentConfigRemote:
     name: origin
     url: https://github.com/KeXingBadMan/Demo.git

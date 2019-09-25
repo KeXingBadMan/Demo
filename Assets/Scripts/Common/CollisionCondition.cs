@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class CollisionCondition : MonoBehaviour
 {
@@ -16,8 +17,8 @@ public class CollisionCondition : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Collision Enter");
-        UIManager.Instance.PushUIPanel("Battle");
-        
+        //UIManager.Instance.PushUIPanel("Battle");
+        SceneManager.LoadScene("BattleDemo");
         OnCollisionHandler.Invoke();
 
     }

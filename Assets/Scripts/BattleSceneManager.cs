@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class BattleSceneManager : MonoBehaviour
 {
     public GameObject playerPrefab;
@@ -243,6 +245,9 @@ public class BattleSceneManager : MonoBehaviour
                 //lose
             }
             Debug.Log("战斗结束");
+
+            SceneManager.LoadScene("Play");
+
 
         }
         else

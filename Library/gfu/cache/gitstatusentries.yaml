@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-24T21:42:07.378+08:00
-  initializedAtString: 2019-09-24T21:37:33.389+08:00
+  lastUpdatedAtString: 2019-09-25T12:06:15.191+08:00
+  initializedAtString: 2019-09-25T11:51:57.111+08:00
   entries:
   - path: .vs\Demo\v15\.suo
     fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\.suo
@@ -46,477 +46,69 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\firyang\Desktop\Demo\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Assets\human_still.anim
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\human_still.anim
+    projectPath: Assets\human_still.anim
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins.meta
-    projectPath: Assets\Plugins.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub.meta
-    projectPath: Assets\Plugins\GitHub.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor.meta
-    projectPath: Assets\Plugins\GitHub\Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\credits.txt
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\credits.txt
-    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\credits.txt.meta
-    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\eula.txt
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\eula.txt
-    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\eula.txt.meta
-    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\human_still.anim.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\human_still.anim.meta
+    projectPath: Assets\human_still.anim.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\libsfw.bundle
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\libsfw.so
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\libsfw.so
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\sfw.net.dll
-    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\System.Threading.dll
-    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x64.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x86.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Prefabs\humanUI.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\humanUI.prefab
+    projectPath: Assets\Prefabs\humanUI.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+  - path: Assets\Prefabs\humanUI.prefab.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\humanUI.prefab.meta
+    projectPath: Assets\Prefabs\humanUI.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefabs\SkillButton.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\SkillButton.prefab
-    projectPath: Assets\Prefabs\SkillButton.prefab
+  - path: Assets\Prefabs\littlemonster.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\littlemonster.prefab
+    projectPath: Assets\Prefabs\littlemonster.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316.meta"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316.meta"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316.meta"
+  - path: Assets\Prefabs\Manager.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\Manager.prefab
+    projectPath: Assets\Prefabs\Manager.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga"
+  - path: Assets\Prefabs\Manager.prefab.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\Manager.prefab.meta
+    projectPath: Assets\Prefabs\Manager.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga.meta"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga.meta"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_01.tga.meta"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga.meta"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga.meta"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_02.tga.meta"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga.meta"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga.meta"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_03.tga.meta"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga.meta"
-    fullPath: "C:\\Users\\firyang\\Desktop\\Demo\\Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga.meta"
-    projectPath: "Assets\\Resources\\Image\\\u5730\u56FE\u4F18\u5316\\MAP_04.tga.meta"
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\UI\Map1.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Resources\UI\Map1.prefab
-    projectPath: Assets\Resources\UI\Map1.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Resources\UI\Map2.prefab
     fullPath: C:\Users\firyang\Desktop\Demo\Assets\Resources\UI\Map2.prefab
     projectPath: Assets\Resources\UI\Map2.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\UI\Map2.prefab.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Resources\UI\Map2.prefab.meta
-    projectPath: Assets\Resources\UI\Map2.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\BattleDemo.unity
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scenes\BattleDemo.unity
-    projectPath: Assets\Scenes\BattleDemo.unity
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\UI\StartUI.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Resources\UI\StartUI.prefab
+    projectPath: Assets\Resources\UI\StartUI.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Play.unity
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scenes\Play.unity
-    projectPath: Assets\Scenes\Play.unity
+  - path: Assets\Scenes\Start.unity
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scenes\Start.unity
+    projectPath: Assets\Scenes\Start.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Battle.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Battle.cs
+    projectPath: Assets\Scripts\Battle.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -526,21 +118,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\BattleSceneManager.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\BattleSceneManager.cs.meta
-    projectPath: Assets\Scripts\BattleSceneManager.cs.meta
+  - path: Assets\Scripts\Common\CollisionCondition.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\CollisionCondition.cs
+    projectPath: Assets\Scripts\Common\CollisionCondition.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\ClassSkill.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\ClassSkill.cs
-    projectPath: Assets\Scripts\ClassSkill.cs
+  - path: Assets\Scripts\Common\GameRoot.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\GameRoot.cs
+    projectPath: Assets\Scripts\Common\GameRoot.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\ClassSkill.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\ClassSkill.cs.meta
-    projectPath: Assets\Scripts\ClassSkill.cs.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Common\GameRoot.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\GameRoot.cs.meta
+    projectPath: Assets\Scripts\Common\GameRoot.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Common\Player_motion.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\Player_motion.cs
+    projectPath: Assets\Scripts\Common\Player_motion.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -550,90 +148,138 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\DataBase.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\DataBase.cs
-    projectPath: Assets\Scripts\FileHelper\DataBase.cs
+  - path: Assets\Scripts\GameRoot.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\GameRoot.cs
+    projectPath: Assets\Scripts\GameRoot.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\DataBase.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\DataBase.cs.meta
-    projectPath: Assets\Scripts\FileHelper\DataBase.cs.meta
+    workTreeStatus: 5
+  - path: Assets\Scripts\GameRoot.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\GameRoot.cs.meta
+    projectPath: Assets\Scripts\GameRoot.cs.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files.meta
-    projectPath: Assets\Scripts\FileHelper\Files.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\item.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\item.json
-    projectPath: Assets\Scripts\FileHelper\Files\item.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\skill.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\skill.json
-    projectPath: Assets\Scripts\FileHelper\Files\skill.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\LitJson.dll.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\LitJson.dll.meta
-    projectPath: Assets\Scripts\FileHelper\LitJson.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Assets\Scripts\Play\Play.cs
     fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\Play.cs
     projectPath: Assets\Scripts\Play\Play.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Player.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Player.meta
-    projectPath: Assets\Scripts\Player.meta
+  - path: Assets\Scripts\Play\PlayUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\PlayUI.cs
+    projectPath: Assets\Scripts\Play\PlayUI.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\Player\Player_Health.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Player\Player_Health.cs
-    projectPath: Assets\Scripts\Player\Player_Health.cs
+  - path: Assets\Scripts\Play\PlayUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\PlayUI.cs.meta
+    projectPath: Assets\Scripts\Play\PlayUI.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\Player\Player_Health.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Player\Player_Health.cs.meta
-    projectPath: Assets\Scripts\Player\Player_Health.cs.meta
+  - path: Assets\Scripts\Start\BattleUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\BattleUI.cs
+    projectPath: Assets\Scripts\Start\BattleUI.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Assets\Scripts\Start\BattleUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\BattleUI.cs.meta
+    projectPath: Assets\Scripts\Start\BattleUI.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\GameInitiate.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\GameInitiate.cs
+    projectPath: Assets\Scripts\Start\GameInitiate.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\GameInitiate.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\GameInitiate.cs.meta
+    projectPath: Assets\Scripts\Start\GameInitiate.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\OptionUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\OptionUI.cs
+    projectPath: Assets\Scripts\Start\OptionUI.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\OptionUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\OptionUI.cs.meta
+    projectPath: Assets\Scripts\Start\OptionUI.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\StartUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\StartUI.cs
+    projectPath: Assets\Scripts\Start\StartUI.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\StartUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\StartUI.cs.meta
+    projectPath: Assets\Scripts\Start\StartUI.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Start\UI.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI.meta
+    projectPath: Assets\Scripts\Start\UI.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\BattleUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\BattleUI.cs
+    projectPath: Assets\Scripts\Start\UI\BattleUI.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\BattleUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\BattleUI.cs.meta
+    projectPath: Assets\Scripts\Start\UI\BattleUI.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\OptionUI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\OptionUI.cs
+    projectPath: Assets\Scripts\Start\UI\OptionUI.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\OptionUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\OptionUI.cs.meta
+    projectPath: Assets\Scripts\Start\UI\OptionUI.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scripts\Start\UI\PlayUI.cs
     fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\PlayUI.cs
     projectPath: Assets\Scripts\Start\UI\PlayUI.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\PlayUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\PlayUI.cs.meta
+    projectPath: Assets\Scripts\Start\UI\PlayUI.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scripts\Start\UI\StartUI.cs
     fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\StartUI.cs
     projectPath: Assets\Scripts\Start\UI\StartUI.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Demo.sln
-    fullPath: C:\Users\firyang\Desktop\Demo\Demo.sln
-    projectPath: Demo.sln
+    workTreeStatus: 5
+  - path: Assets\Scripts\Start\UI\StartUI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Start\UI\StartUI.cs.meta
+    projectPath: Assets\Scripts\Start\UI\StartUI.cs.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\APIUpdater\project-dependencies.graph
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: C:\Users\firyang\Desktop\Demo\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -662,44 +308,38 @@ MonoBehaviour:
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlog.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\InspectorExpandedItems.asset
     fullPath: C:\Users\firyang\Desktop\Demo\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
@@ -712,222 +352,54 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\00\00000000000000009000000000000000
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\00\00000000000000009000000000000000
-    projectPath: Library\metadata\00\00000000000000009000000000000000
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\00\0000000000000000a100000000000000
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\00\0000000000000000a100000000000000
-    projectPath: Library\metadata\00\0000000000000000a100000000000000
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f
-    projectPath: Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f.info
-    projectPath: Library\metadata\00\0049ccdcb6cc01240a11c48d4eced26f.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a
     projectPath: Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a.info
-    projectPath: Library\metadata\0b\0bfa492c1c4bf1945809c74bccf8170a.info
+  - path: Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0
+    projectPath: Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
-    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\23\23b917a495da33442844baf8420c73dc
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\23\23b917a495da33442844baf8420c73dc
-    projectPath: Library\metadata\23\23b917a495da33442844baf8420c73dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\23\23b917a495da33442844baf8420c73dc.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\23\23b917a495da33442844baf8420c73dc.info
-    projectPath: Library\metadata\23\23b917a495da33442844baf8420c73dc.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\23\23c8bee69b591054094d32918f98facd
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\3f\3f94d82c70856cf459f7ae2b4112ef0c
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\3f\3f94d82c70856cf459f7ae2b4112ef0c
-    projectPath: Library\metadata\3f\3f94d82c70856cf459f7ae2b4112ef0c
+  - path: Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0.info
+    projectPath: Library\metadata\28\286a745a8097c2947ac5cbc0ce4262c0.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
-    projectPath: Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
+  - path: Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
+    projectPath: Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e
-    projectPath: Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e
+  - path: Library\metadata\40\40c5e69298333dd49a5ea3c1cf24860d
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\40\40c5e69298333dd49a5ea3c1cf24860d
+    projectPath: Library\metadata\40\40c5e69298333dd49a5ea3c1cf24860d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9
+    projectPath: Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e.info
-    projectPath: Library\metadata\48\48733bf88ea66ca4c9f503308b702b3e.info
+  - path: Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9.info
+    projectPath: Library\metadata\44\44412fc5247cbc34788bae48fe56cbe9.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
-    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+  - path: Library\metadata\51\512a8d503c0f86a4c85d14945d5cabd8
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\51\512a8d503c0f86a4c85d14945d5cabd8
+    projectPath: Library\metadata\51\512a8d503c0f86a4c85d14945d5cabd8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\55\5544f428c369d4e4a80f14628697f5ae
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\55\5544f428c369d4e4a80f14628697f5ae
-    projectPath: Library\metadata\55\5544f428c369d4e4a80f14628697f5ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\55\5544f428c369d4e4a80f14628697f5ae.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\55\5544f428c369d4e4a80f14628697f5ae.info
-    projectPath: Library\metadata\55\5544f428c369d4e4a80f14628697f5ae.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
-    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
     projectPath: Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
@@ -946,378 +418,132 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\metadata\65\651a79a12c2688944bcbab75bc2f9817
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\65\651a79a12c2688944bcbab75bc2f9817
     projectPath: Library\metadata\65\651a79a12c2688944bcbab75bc2f9817
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+  - path: Library\metadata\65\651a79a12c2688944bcbab75bc2f9817.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\65\651a79a12c2688944bcbab75bc2f9817.info
+    projectPath: Library\metadata\65\651a79a12c2688944bcbab75bc2f9817.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
-    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     projectPath: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
-    projectPath: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
+  - path: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    projectPath: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09.info
+    projectPath: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\92\92192e6bba5a16b4b9befd09843b646b
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\92\92192e6bba5a16b4b9befd09843b646b
+    projectPath: Library\metadata\92\92192e6bba5a16b4b9befd09843b646b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff
-    projectPath: Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff.info
-    projectPath: Library\metadata\6e\6ef09a45bc85e11448147ef83e6ff0ff.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
-    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
-    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\87\877ef3585573ce44eab899298be23158
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\87\877ef3585573ce44eab899298be23158
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200
-    projectPath: Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200.info
-    projectPath: Library\metadata\b1\b1c1fd55d98b7b242a5c5b8324560200.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c0\c0049c0c64a1137498830b7df5521529
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c0\c0049c0c64a1137498830b7df5521529
-    projectPath: Library\metadata\c0\c0049c0c64a1137498830b7df5521529
+  - path: Library\metadata\92\92192e6bba5a16b4b9befd09843b646b.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\92\92192e6bba5a16b4b9befd09843b646b.info
+    projectPath: Library\metadata\92\92192e6bba5a16b4b9befd09843b646b.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61
-    projectPath: Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61.info
-    projectPath: Library\metadata\c3\c3f700308ff889c4b98f978c5c5bfb61.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be
-    projectPath: Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be.info
-    projectPath: Library\metadata\c9\c9d5c315b20fdfb47b83c07e31e121be.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\cd\cd6099a69d879914cb146db68be4ecd6
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\cd\cd6099a69d879914cb146db68be4ecd6
-    projectPath: Library\metadata\cd\cd6099a69d879914cb146db68be4ecd6
+  - path: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
+    projectPath: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\d0\d00195e2c1620084792c2bf769180892
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d0\d00195e2c1620084792c2bf769180892
-    projectPath: Library\metadata\d0\d00195e2c1620084792c2bf769180892
+  - path: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74.info
+    projectPath: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
-    projectPath: Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
+  - path: Library\metadata\bc\bc93a294eeae4e34e8d1653c098074f8
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bc\bc93a294eeae4e34e8d1653c098074f8
+    projectPath: Library\metadata\bc\bc93a294eeae4e34e8d1653c098074f8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
-    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+  - path: Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2
+    projectPath: Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2.info
+    projectPath: Library\metadata\bc\bca5e377b6eaba24eb591ace38454dd2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d
+    projectPath: Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d.info
+    projectPath: Library\metadata\bc\bcfa80d6c8ddb474ea653240e9f7d35d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55
+    projectPath: Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
-    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+  - path: Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55.info
+    projectPath: Library\metadata\bf\bf7f8d8038a59a94889b4cd3d19d3c55.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+  - path: Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c
+    projectPath: Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c.info
+    projectPath: Library\metadata\d8\d8696dab5c41eb94aa3996dc962dce6c.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
-    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
     projectPath: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423.info
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423.info
     projectPath: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba
-    projectPath: Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba.info
-    projectPath: Library\metadata\f1\f1abb17baf952a64ebfa51ce9f9cccba.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
     projectPath: Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\firyang\Desktop\Demo\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -1340,14 +566,8 @@ MonoBehaviour:
     fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
     fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
     projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
@@ -1432,9 +652,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\726a59-d00195e2c162008479.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-d00195e2c162008479.json
-    projectPath: Library\StateCache\Hierarchy\726a59-d00195e2c162008479.json
+  - path: Library\StateCache\Hierarchy\726a59-286a745a8097c2947a.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-286a745a8097c2947a.json
+    projectPath: Library\StateCache\Hierarchy\726a59-286a745a8097c2947a.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\726a59-2f11b5e4d792e32468.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-2f11b5e4d792e32468.json
+    projectPath: Library\StateCache\Hierarchy\726a59-2f11b5e4d792e32468.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\726a59-6032420131bde72458.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-6032420131bde72458.json
+    projectPath: Library\StateCache\Hierarchy\726a59-6032420131bde72458.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\726a59-8eb6fe6e58ad92142a.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-8eb6fe6e58ad92142a.json
+    projectPath: Library\StateCache\Hierarchy\726a59-8eb6fe6e58ad92142a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\726a59-bc0ebabb7e97713448.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-bc0ebabb7e97713448.json
+    projectPath: Library\StateCache\Hierarchy\726a59-bc0ebabb7e97713448.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\726a59-bf7f8d8038a59a9488.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-bf7f8d8038a59a9488.json
+    projectPath: Library\StateCache\Hierarchy\726a59-bf7f8d8038a59a9488.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\726a59-c694ec441819ae84ab.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-c694ec441819ae84ab.json
+    projectPath: Library\StateCache\Hierarchy\726a59-c694ec441819ae84ab.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1442,11 +698,29 @@ MonoBehaviour:
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-ed699ae3d1170dc4a9.json
     projectPath: Library\StateCache\Hierarchy\726a59-ed699ae3d1170dc4a9.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\726a59-mainStage.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\726a59-mainStage.json
     projectPath: Library\StateCache\Hierarchy\726a59-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\985e15-286a745a8097c2947a.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-286a745a8097c2947a.json
+    projectPath: Library\StateCache\SceneView\985e15-286a745a8097c2947a.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\985e15-2f11b5e4d792e32468.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-2f11b5e4d792e32468.json
+    projectPath: Library\StateCache\SceneView\985e15-2f11b5e4d792e32468.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\985e15-6032420131bde72458.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-6032420131bde72458.json
+    projectPath: Library\StateCache\SceneView\985e15-6032420131bde72458.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1456,9 +730,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\985e15-d00195e2c162008479.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-d00195e2c162008479.json
-    projectPath: Library\StateCache\SceneView\985e15-d00195e2c162008479.json
+  - path: Library\StateCache\SceneView\985e15-8eb6fe6e58ad92142a.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-8eb6fe6e58ad92142a.json
+    projectPath: Library\StateCache\SceneView\985e15-8eb6fe6e58ad92142a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\985e15-bc0ebabb7e97713448.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-bc0ebabb7e97713448.json
+    projectPath: Library\StateCache\SceneView\985e15-bc0ebabb7e97713448.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\985e15-bf7f8d8038a59a9488.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-bf7f8d8038a59a9488.json
+    projectPath: Library\StateCache\SceneView\985e15-bf7f8d8038a59a9488.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\985e15-c694ec441819ae84ab.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-c694ec441819ae84ab.json
+    projectPath: Library\StateCache\SceneView\985e15-c694ec441819ae84ab.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1466,14 +758,20 @@ MonoBehaviour:
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-ed699ae3d1170dc4a9.json
     projectPath: Library\StateCache\SceneView\985e15-ed699ae3d1170dc4a9.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\SceneView\985e15-mainStage.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\985e15-mainStage.json
     projectPath: Library\StateCache\SceneView\985e15-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\SceneView\af21d9-2f11b5e4d792e32468.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\af21d9-2f11b5e4d792e32468.json
+    projectPath: Library\StateCache\SceneView\af21d9-2f11b5e4d792e32468.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
@@ -1486,39 +784,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\firyang\Desktop\Demo\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\firyang\Desktop\Demo\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\firyang\Desktop\Demo\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\UnityLockfile
     fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-181e5490591e1224da697fef664b6ee6
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-181e5490591e1224da697fef664b6ee6
+    projectPath: Temp\UnityTempFile-181e5490591e1224da697fef664b6ee6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ca0166349929c6f49a384f2d3df67a3f
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-ca0166349929c6f49a384f2d3df67a3f
+    projectPath: Temp\UnityTempFile-ca0166349929c6f49a384f2d3df67a3f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

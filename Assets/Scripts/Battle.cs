@@ -35,8 +35,8 @@ public class Battle : MonoBehaviour
         {
             currentHP = 0;
         }
-        currentHP--;
-        Debug.Log(currentHP);
+        //currentHP--;
+        //Debug.Log(currentHP);
 
         HPTransform.sizeDelta = new Vector2(HPwidth / maxHP * currentHP, HPTransform.sizeDelta.y);
 

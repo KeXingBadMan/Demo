@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayUI : UIBase
+public class OptionUI : UIBase
 {
+    public Slider MusicSlider;
     public override void DoOnEntering()
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
         gameObject.SetActive(true);
-        RandomMonster();
     }
 
     public override void DoOnPausing()
@@ -24,26 +25,23 @@ public class PlayUI : UIBase
     public override void DoOnExiting()
     {
         gameObject.SetActive(false);
+        //Destroy(gameObject, 0);
     }
 
     public void GotoStart()
     {
+        //Debug.Log("GotoStart");
         UIManager.Instance.PopUIPanel();
     }
 
-    public void RandomMonster()
+    public void SetBGMMute(bool mute)
     {
-        GameObject randommoster = GameObject.Find("RandomMonster");
-        if(Random.Range(1,11) < 6)
-        {
-            randommoster.SetActive(true);
-        }
-        else
-        {
-            randommoster.SetActive(false);
-        }
+        SoundManager.Instance.Mute = mute;
     }
-
-
+    public void SetBGMVolume()
+    {
+        SoundManager.Instance.BGMVolume = MusicSlider.value;
+        //Debug.Log(SoundManager.Instance.BGMVolume);
+    }
 
 }

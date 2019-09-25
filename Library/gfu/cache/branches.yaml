@@ -13,15 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-24T21:10:27.643+08:00
-  initializedAtString: 2019-09-24T21:10:27.630+08:00
+  lastUpdatedAtString: 2019-09-24T22:53:12.995+08:00
+  initializedAtString: 2019-09-24T22:53:12.957+08:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: NewStart0924
+    tracking: origin/NewStart0924
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/NewStart0924
     tracking: '[None]'
   remotes:
   - name: origin
@@ -34,12 +38,18 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - NewStart0924
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/KeXingBadMan/Demo.git
       trackingBranch: master
+    - name: NewStart0924
+      remote:
+        name: origin
+        url: https://github.com/KeXingBadMan/Demo.git
+      trackingBranch: NewStart0924
   remoteConfigBranches:
     keys:
     - origin
@@ -47,6 +57,7 @@ MonoBehaviour:
     - Values:
       - HEAD
       - master
+      - NewStart0924
     subKeyValues:
     - Values:
       - name: HEAD
@@ -55,6 +66,11 @@ MonoBehaviour:
           url: https://github.com/KeXingBadMan/Demo.git
         trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/KeXingBadMan/Demo.git
+        trackingBranch: 
+      - name: NewStart0924
         remote:
           name: origin
           url: https://github.com/KeXingBadMan/Demo.git

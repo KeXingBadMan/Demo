@@ -36,6 +36,7 @@ public class BattleUI : UIBase
     public void ExitBattle()
     {
         Time.timeScale = 1f;
+        //Debug.Log("PopUI");
         UIManager.Instance.PopUIPanel();
     }
 }

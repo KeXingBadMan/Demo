@@ -7,15 +7,15 @@ public class Player_motion : MonoBehaviour
     public float WalkHorizontalSpeed;
     public float WalkVerticalSpeed;
 
-    //玩家朝向，默认朝下
-    Vector2 LookDir = new Vector2(0, -1);
-
+    //Vector2 LookDir = new Vector2(0, -1);
+    Vector2 LookDir;
     Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        //玩家朝向，默认朝下
         anim.SetFloat("LookX", 0);
         anim.SetFloat("LookY", -1);
         anim.SetFloat("speed", 0);

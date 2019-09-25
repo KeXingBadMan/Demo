@@ -7,8 +7,28 @@ public class Play : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //UIManager.Instance.PushUIPanel("Map1");
-        UIManager.Instance.PushUIPanel(RandomMap());
+        //UIManager.Instance.PushUIPanel("Map2");
+        //UIManager.Instance.PushUIPanel(RandomMap());
+
+        //if (GameObject.Find("Map1"))
+        //{
+        //    UIManager.Instance.PushUIPanel("Map1");
+        //}
+        //else if (GameObject.Find("Map2"))
+        //{
+        //    UIManager.Instance.PushUIPanel("Map2");
+        //}
+        //else
+        //{
+        //    string Map = "Map2";
+        //    UIManager.Instance.PushUIPanel(Map);
+        //    DontDestroyOnLoad(GameObject.Find(Map));
+        //}
+
+        //string Map = RandomMap();
+        string Map = "Map2";
+        UIManager.Instance.PushUIPanel(Map);
+        DontDestroyOnLoad(GameObject.Find(Map));
     }
 
     // Update is called once per frame

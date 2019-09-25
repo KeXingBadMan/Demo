@@ -98,9 +98,7 @@ public class UIManager : MonoBehaviour
             string UIName = file.Name.Substring(0, index);
             
             string UIPath = ResourceDir + "/" + UIName;
-            //Debug.Log(UIPath);
             GameObject UIObject = Resources.Load<GameObject>(UIPath);
-            //GameObject UIObject = Resources.Load<GameObject>(UIPath) as GameObject;
             UIObjectDict.Add(UIName, UIObject);
         }
     }
