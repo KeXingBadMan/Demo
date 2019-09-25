@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\FileHelper\DataBase.cs" />
     <Compile Include="Assets\Scripts\Launch\Launch.cs" />
+    <Compile Include="Assets\Scripts\Play\Map1UI.cs" />
     <Compile Include="Assets\Scripts\Play\Play.cs" />
     <Compile Include="Assets\Scripts\Play\PlayUI.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Health.cs" />

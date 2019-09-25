@@ -13,12 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-25T18:11:31.253+08:00
-  initializedAtString: 2019-09-25T18:07:45.716+08:00
+  lastUpdatedAtString: 2019-09-25T19:33:24.517+08:00
+  initializedAtString: 2019-09-25T19:00:42.141+08:00
   entries:
-  - path: Assets\Prefabs\begger.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\begger.prefab
-    projectPath: Assets\Prefabs\begger.prefab
+  - path: .vs\Demo\v15\.suo
+    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\.suo
+    projectPath: .vs\Demo\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Demo\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Demo\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\firyang\Desktop\Demo\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\human.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\human.prefab
+    projectPath: Assets\Prefabs\human.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\humanUI.prefab
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\humanUI.prefab
+    projectPath: Assets\Prefabs\humanUI.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -28,18 +52,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\Common\Player_motion.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\Player_motion.cs
+    projectPath: Assets\Scripts\Common\Player_motion.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Play\Map1UI.cs
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\Map1UI.cs
+    projectPath: Assets\Scripts\Play\Map1UI.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Play\Map1UI.cs.meta
+    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\Map1UI.cs.meta
+    projectPath: Assets\Scripts\Play\Map1UI.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\assetDatabase3
     fullPath: C:\Users\firyang\Desktop\Demo\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -76,9 +112,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37
-    projectPath: Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37
+  - path: Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e
+    projectPath: Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e.info
+    projectPath: Library\metadata\2d\2dedb16f54ee3124687d8c0cca51180e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
+    projectPath: Library\metadata\35\353c9c0d220a69f4baa2a8fd841d2359
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\5f\5f84dbff447e58a4687e337f41ec85dc
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\5f\5f84dbff447e58a4687e337f41ec85dc
+    projectPath: Library\metadata\5f\5f84dbff447e58a4687e337f41ec85dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6c\6c05d64114012c447bcb0e5ab85498a7
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6c\6c05d64114012c447bcb0e5ab85498a7
+    projectPath: Library\metadata\6c\6c05d64114012c447bcb0e5ab85498a7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,15 +148,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
+    projectPath: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    projectPath: Library\metadata\8e\8eb6fe6e58ad92142af13b421301ed09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
+    projectPath: Library\metadata\ed\ed699ae3d1170dc4a901cc933b2db423
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f4\f47211536d0c239419c4258f53b64b24
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f4\f47211536d0c239419c4258f53b64b24
+    projectPath: Library\metadata\f4\f47211536d0c239419c4258f53b64b24
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\firyang\Desktop\Demo\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\02503d-5f84dbff447e58a468.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-5f84dbff447e58a468.json
+    projectPath: Library\StateCache\Hierarchy\02503d-5f84dbff447e58a468.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
+    projectPath: Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\02503d-mainStage.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-mainStage.json
     projectPath: Library\StateCache\Hierarchy\02503d-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\e18096-5f84dbff447e58a468.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-5f84dbff447e58a468.json
+    projectPath: Library\StateCache\SceneView\e18096-5f84dbff447e58a468.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\StateCache\SceneView\e18096-mainStage.json
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-mainStage.json
+    projectPath: Library\StateCache\SceneView\e18096-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\firyang\Desktop\Demo\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -109,6 +241,42 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0c9e915ad56868b44a70f5c149a4f1fc
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-0c9e915ad56868b44a70f5c149a4f1fc
+    projectPath: Temp\UnityTempFile-0c9e915ad56868b44a70f5c149a4f1fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0eec252b59edadc48874972d6e36fb28
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-0eec252b59edadc48874972d6e36fb28
+    projectPath: Temp\UnityTempFile-0eec252b59edadc48874972d6e36fb28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4afae9611dda8e44fb543c9514ddae89
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-4afae9611dda8e44fb543c9514ddae89
+    projectPath: Temp\UnityTempFile-4afae9611dda8e44fb543c9514ddae89
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-609793c01f76d614c9dea6db936b6b3f
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-609793c01f76d614c9dea6db936b6b3f
+    projectPath: Temp\UnityTempFile-609793c01f76d614c9dea6db936b6b3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6ef007004f7087b40b9ccec69b6ff4d8
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-6ef007004f7087b40b9ccec69b6ff4d8
+    projectPath: Temp\UnityTempFile-6ef007004f7087b40b9ccec69b6ff4d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bdad13ebdb8130649bb0bd952ea6a46e
+    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-bdad13ebdb8130649bb0bd952ea6a46e
+    projectPath: Temp\UnityTempFile-bdad13ebdb8130649bb0bd952ea6a46e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

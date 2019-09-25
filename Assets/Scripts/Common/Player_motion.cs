@@ -41,12 +41,6 @@ public class Player_motion : MonoBehaviour
             anim.SetFloat("LookY", 0);
         }
         anim.SetFloat("speed", 0);
-        //GameObject.Find("Main Camera").GetComponent<GameRoot>().Player = this.gameObject;
-        //GameObject.Find("Main Camera").GetComponent<GameRoot>().WalkHorizontalSpeed = this.WalkHorizontalSpeed;
-        //GameObject.Find("Main Camera").GetComponent<GameRoot>().WalkVerticalSpeed = this.WalkVerticalSpeed;
-        //GameObject.Find("Manager").GetComponent<GameRoot>().Player = this.gameObject;
-        //GameObject.Find("Manager").GetComponent<GameRoot>().WalkHorizontalSpeed = this.WalkHorizontalSpeed;
-        //GameObject.Find("Manager").GetComponent<GameRoot>().WalkVerticalSpeed = this.WalkVerticalSpeed;
     }
 
     // Update is called once per frame
@@ -59,23 +53,14 @@ public class Player_motion : MonoBehaviour
     void LateUpdate()
     {
         Vector3 camera = GameObject.Find("Main Camera").GetComponent<Transform>().position;
+        //Vector3 camera = GameObject.Find("PlayerCamera").GetComponent<Transform>().position;
         camera.x = this.transform.position.x;
         camera.y = this.transform.position.y;
         //Vector2 camera = this.transform.position;
         //GameObject.Find("Main Camera").GetComponent<Transform>().position = this.transform.position;
         GameObject.Find("Main Camera").GetComponent<Transform>().position = camera;
 
-        // target为主角，缩放旋转的参照物  
-        /*if (target)
-        {
-            // 重置摄像机的位置  
-            y = ClampAngle(y, yMinLimit, yMaxLimit);
-            Quaternion rotation = Quaternion.Euler(y, x, 0);
-            Vector3 position = rotation * new Vector3(0.0f, 0.0f, -distance) + target.position + new Vector3(0f, 0.6f, 0f);
-            //  Debug.Log();
-            transform.rotation = rotation;
-            transform.position = position;
-        }*/
+        
     }
 
     void Walk()

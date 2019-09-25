@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 2011983019840559513}
   - component: {fileID: 334422626468147812}
   - component: {fileID: 1994103672873091652}
-  - component: {fileID: 1916959606}
+  - component: {fileID: -3256407757143063707}
   m_Layer: 5
   m_Name: Map1
   m_TagString: Untagged
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1916959606
+--- !u!114 &-3256407757143063707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6896915598570347637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62fa159b3570e9446a0ad0439fe99e70, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dedb16f54ee3124687d8c0cca51180e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2767991972426280558
@@ -596,7 +596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1916959606}
+      objectReference: {fileID: -3256407757143063707}
     - target: {fileID: 4303974555491722565, guid: 8eb6fe6e58ad92142af13b421301ed09,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
