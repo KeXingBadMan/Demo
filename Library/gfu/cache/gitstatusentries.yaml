@@ -13,72 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-25T18:05:19.225+08:00
-  initializedAtString: 2019-09-25T18:02:31.881+08:00
+  lastUpdatedAtString: 2019-09-25T18:11:31.253+08:00
+  initializedAtString: 2019-09-25T18:07:45.716+08:00
   entries:
-  - path: .vs\Demo\v15\.suo
-    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\.suo
-    projectPath: .vs\Demo\v15\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\Demo\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\Demo\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\Demo\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\Demo\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\Demo\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Users\firyang\Desktop\Demo\.vs\Demo\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\Demo\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\firyang\Desktop\Demo\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Prefabs\begger.prefab
     fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\begger.prefab
     projectPath: Assets\Prefabs\begger.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\boss.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\boss.prefab
-    projectPath: Assets\Prefabs\boss.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\common.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\common.prefab
-    projectPath: Assets\Prefabs\common.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\elite.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\elite.prefab
-    projectPath: Assets\Prefabs\elite.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\SkillButton.prefab
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\SkillButton.prefab
-    projectPath: Assets\Prefabs\SkillButton.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\SkillButton.prefab.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Prefabs\SkillButton.prefab.meta
-    projectPath: Assets\Prefabs\SkillButton.prefab.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,126 +28,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\BattleDemo.unity
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scenes\BattleDemo.unity
-    projectPath: Assets\Scenes\BattleDemo.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\BattleDemo.unity.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scenes\BattleDemo.unity.meta
-    projectPath: Assets\Scenes\BattleDemo.unity.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\BattleSceneManager.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\BattleSceneManager.cs
-    projectPath: Assets\Scripts\BattleSceneManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\BattleUIManager.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\BattleUIManager.cs
-    projectPath: Assets\Scripts\BattleUIManager.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\BattleUIManager.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\BattleUIManager.cs.meta
-    projectPath: Assets\Scripts\BattleUIManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Common\GameRoot.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Common\GameRoot.cs
-    projectPath: Assets\Scripts\Common\GameRoot.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\DataBase.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\DataBase.cs
-    projectPath: Assets\Scripts\FileHelper\DataBase.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\DataBase.cs.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\DataBase.cs.meta
-    projectPath: Assets\Scripts\FileHelper\DataBase.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\item.json.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\item.json.meta
-    projectPath: Assets\Scripts\FileHelper\Files\item.json.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\itemwardrobe.json.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\itemwardrobe.json.meta
-    projectPath: Assets\Scripts\FileHelper\Files\itemwardrobe.json.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\skill.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\skill.json
-    projectPath: Assets\Scripts\FileHelper\Files\skill.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\skill.json.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\skill.json.meta
-    projectPath: Assets\Scripts\FileHelper\Files\skill.json.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\FileHelper\Files\skillwardrobe.json.meta
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\FileHelper\Files\skillwardrobe.json.meta
-    projectPath: Assets\Scripts\FileHelper\Files\skillwardrobe.json.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Play\Play.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\Play.cs
-    projectPath: Assets\Scripts\Play\Play.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Play\PlayUI.cs
-    fullPath: C:\Users\firyang\Desktop\Demo\Assets\Scripts\Play\PlayUI.cs
-    projectPath: Assets\Scripts\Play\PlayUI.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\assetDatabase3
     fullPath: C:\Users\firyang\Desktop\Demo\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
+  - path: Library\CrashedAssetImports.txt
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\expandedItems
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -232,39 +70,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\firyang\Desktop\Demo\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e
-    projectPath: Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e.info
-    projectPath: Library\metadata\2c\2c950cf3649bbc647b0eefce8960fd5e.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -274,249 +82,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37.info
-    projectPath: Library\metadata\3b\3b6acf29c07e70d4e9827e09d8b74d37.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
-    projectPath: Library\metadata\47\47656eb86f1dcac4492bac069f9606ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
-    projectPath: Library\metadata\57\57bdee7153d05ba4b9143a0e981e16ec
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\59\59efc583495f6aa4190d9661c379f56b
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\59\59efc583495f6aa4190d9661c379f56b
-    projectPath: Library\metadata\59\59efc583495f6aa4190d9661c379f56b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\59\59efc583495f6aa4190d9661c379f56b.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\59\59efc583495f6aa4190d9661c379f56b.info
-    projectPath: Library\metadata\59\59efc583495f6aa4190d9661c379f56b.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\62\62fa159b3570e9446a0ad0439fe99e70
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\62\62fa159b3570e9446a0ad0439fe99e70
-    projectPath: Library\metadata\62\62fa159b3570e9446a0ad0439fe99e70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     projectPath: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
-    projectPath: Library\metadata\6d\6db0b3d8aa2b43f4bab43cb967d1a1b5.info
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\firyang\Desktop\Demo\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
-    projectPath: Library\metadata\a2\a2fbc9dd85c177b4584f386b071e0c74
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\c0\c0049c0c64a1137498830b7df5521529
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\c0\c0049c0c64a1137498830b7df5521529
-    projectPath: Library\metadata\c0\c0049c0c64a1137498830b7df5521529
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d0\d00195e2c1620084792c2bf769180892
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d0\d00195e2c1620084792c2bf769180892
-    projectPath: Library\metadata\d0\d00195e2c1620084792c2bf769180892
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
-    projectPath: Library\metadata\d0\d00195e2c1620084792c2bf769180892.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f3\f3b35300043160041ab3dec5153d5d32
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f3\f3b35300043160041ab3dec5153d5d32
-    projectPath: Library\metadata\f3\f3b35300043160041ab3dec5153d5d32
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f3\f3b35300043160041ab3dec5153d5d32.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f3\f3b35300043160041ab3dec5153d5d32.info
-    projectPath: Library\metadata\f3\f3b35300043160041ab3dec5153d5d32.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
-    projectPath: Library\metadata\f5\f59da3483bb37e341b2c4f610674944b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5
-    projectPath: Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5.info
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5.info
-    projectPath: Library\metadata\f6\f66200bc0a6ac5f468dbd5c2e5a015a5.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\02503d-2c950cf3649bbc647b.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-2c950cf3649bbc647b.json
-    projectPath: Library\StateCache\Hierarchy\02503d-2c950cf3649bbc647b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-3b6acf29c07e70d4e9.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-3b6acf29c07e70d4e9.json
-    projectPath: Library\StateCache\Hierarchy\02503d-3b6acf29c07e70d4e9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-512a8d503c0f86a4c8.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-512a8d503c0f86a4c8.json
-    projectPath: Library\StateCache\Hierarchy\02503d-512a8d503c0f86a4c8.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
-    projectPath: Library\StateCache\Hierarchy\02503d-6db0b3d8aa2b43f4ba.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-ed699ae3d1170dc4a9.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-ed699ae3d1170dc4a9.json
-    projectPath: Library\StateCache\Hierarchy\02503d-ed699ae3d1170dc4a9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-f3b35300043160041a.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-f3b35300043160041a.json
-    projectPath: Library\StateCache\Hierarchy\02503d-f3b35300043160041a.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\02503d-f66200bc0a6ac5f468.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-f66200bc0a6ac5f468.json
-    projectPath: Library\StateCache\Hierarchy\02503d-f66200bc0a6ac5f468.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\StateCache\Hierarchy\02503d-mainStage.json
     fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\02503d-mainStage.json
     projectPath: Library\StateCache\Hierarchy\02503d-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\064f20-mainStage.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\064f20-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\064f20-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\bac1a7-mainStage.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\Hierarchy\bac1a7-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\bac1a7-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\d559ab-mainStage.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\d559ab-mainStage.json
-    projectPath: Library\StateCache\SceneView\d559ab-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-2c950cf3649bbc647b.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-2c950cf3649bbc647b.json
-    projectPath: Library\StateCache\SceneView\e18096-2c950cf3649bbc647b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-3b6acf29c07e70d4e9.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-3b6acf29c07e70d4e9.json
-    projectPath: Library\StateCache\SceneView\e18096-3b6acf29c07e70d4e9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-512a8d503c0f86a4c8.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-512a8d503c0f86a4c8.json
-    projectPath: Library\StateCache\SceneView\e18096-512a8d503c0f86a4c8.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-6db0b3d8aa2b43f4ba.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-6db0b3d8aa2b43f4ba.json
-    projectPath: Library\StateCache\SceneView\e18096-6db0b3d8aa2b43f4ba.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-ed699ae3d1170dc4a9.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-ed699ae3d1170dc4a9.json
-    projectPath: Library\StateCache\SceneView\e18096-ed699ae3d1170dc4a9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-f3b35300043160041a.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-f3b35300043160041a.json
-    projectPath: Library\StateCache\SceneView\e18096-f3b35300043160041a.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-f66200bc0a6ac5f468.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-f66200bc0a6ac5f468.json
-    projectPath: Library\StateCache\SceneView\e18096-f66200bc0a6ac5f468.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\e18096-mainStage.json
-    fullPath: C:\Users\firyang\Desktop\Demo\Library\StateCache\SceneView\e18096-mainStage.json
-    projectPath: Library\StateCache\SceneView\e18096-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\firyang\Desktop\Demo\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -529,12 +109,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f925a89d0e5674a4b9c4da06c72bdb38
-    fullPath: C:\Users\firyang\Desktop\Demo\Temp\UnityTempFile-f925a89d0e5674a4b9c4da06c72bdb38
-    projectPath: Temp\UnityTempFile-f925a89d0e5674a4b9c4da06c72bdb38
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
