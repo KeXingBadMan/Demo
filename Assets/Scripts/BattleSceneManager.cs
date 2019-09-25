@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 public class BattleSceneManager : MonoBehaviour
 {
     public GameObject playerPrefab;
@@ -20,7 +19,7 @@ public class BattleSceneManager : MonoBehaviour
     public List<GameObject> playerSkillButtons;
     public List<GameObject> playerBuffButtons;
     public int playerSP = 0;
-    public int playerHP = 8;
+    public int playerHP = 20;
     public int playerMaxHP = 20;
     public int enemySP = 0;
     public int enemyHP = 15;
@@ -32,6 +31,12 @@ public class BattleSceneManager : MonoBehaviour
     public GameObject dataBaseObj = null;
     private DataBase dataBase = null;
     bool lastPlayerTurn = false;
+    private bool HoldUpByUI = false;
+    List<Item> charDic = new List<Item>();
+    List<Item> charLevel1 = new List<Item>();
+    List<Item> charLevel2 = new List<Item>();
+    List<Item> charLevel3 = new List<Item>();
+    List<Item> charLevel4 = new List<Item>();
 
     Skill enemySkill1;
     Skill enemySkill2;
@@ -54,7 +59,23 @@ public class BattleSceneManager : MonoBehaviour
         playerBuffs.Add(new Buff("武当派", "YiJinJing"));//回合开始时执行的buff
         InitializeBattleScene();
         InitializePlayerAndEnemy();
+        IntDic();
         //InitializeBuffScene();
+    }
+    void IntDic()
+    {
+        charDic = dataBase.GetItemData();
+        foreach (Item tempChar in charDic)
+        {
+            if (tempChar.Level == 1)
+                charLevel1.Add(tempChar);
+            else if (tempChar.Level == 2)
+                charLevel2.Add(tempChar);
+            else if (tempChar.Level == 3)
+                charLevel3.Add(tempChar);
+            else if (tempChar.Level == 4)
+                charLevel4.Add(tempChar);
+        }
     }
     void InitSkills() {
         playerSkills.Add(new Skill("武当派", "普通攻击", 0, 3,0));
@@ -95,7 +116,24 @@ public class BattleSceneManager : MonoBehaviour
 
     void InitializePlayerAndEnemy()
     {
-        playerHP = PlayerPrefs.GetInt("PlayerHp");
+       // if (PlayerPrefs.HasKey("PlayerHp")) {
+       //     playerHP = PlayerPrefs.GetInt("PlayerHp");
+       // }
+       
+        if (PlayerPrefs.HasKey("EnemyLevel")) {
+            int enemyLevel = PlayerPrefs.GetInt("EnemyLevel");
+            if (enemyLevel == 1)
+            {
+                enemyHP = 15;
+            }
+            else if (enemyLevel == 2)
+            {
+                enemyHP = 20;
+            }
+            else {
+                enemyHP = 30;
+            }
+        }
         //敵人的相關設定
     }
 
@@ -116,10 +154,10 @@ public class BattleSceneManager : MonoBehaviour
             GameObject tempSkill = Instantiate(skillBPrefab);
             tempSkill.transform.parent = gameObject.transform;
             //tempSkill.GetComponentInChildren<TextMeshProUGUI>().text = playerSkills[i].mName;
-            tempSkill.GetComponent<Text>().text= playerSkills[i].mName;
+            tempSkill.GetComponentInChildren<Text>().text= playerSkills[i].mName;
             tempSkill.GetComponent<SkillButton>().mySkill = playerSkills[i];
             tempSkill.GetComponent<SkillButton>().sceneManager = this;
-            tempSkill.transform.position = new Vector2(300, i * 30 + 100);
+            tempSkill.transform.position = new Vector2(900, i * 30 + 100);
             print("new skill added");
             playerSkillButtons.Add(tempSkill);
         }
@@ -129,7 +167,7 @@ public class BattleSceneManager : MonoBehaviour
     void Update()
     {
         //玩家完成buff选择后正式开始战斗
-        if (!pickingBuff)
+        if (!pickingBuff&&HoldUpByUI == false)
         {
             if (playerTurn && !battleIsOver)
                 PlayerTurn();
@@ -182,20 +220,51 @@ public class BattleSceneManager : MonoBehaviour
             enemyHP -= actualDamage;
             CastSpecialEffect(usedSkill.mName);//特殊效果
             Debug.Log("玩家使用技能" + usedSkill.mName + "小怪-" + usedSkill.mDamage);
+            HoldUpByUI = true;
+            BattleUIManager.instance.ConfirmButton.onClick.AddListener(delegate() {
+                PlayerRoundClick();
+            });
+            string message = "玩家使用技能 " + usedSkill.mName + " 敌人失去" + usedSkill.mDamage+"点血";
+            BattleUIManager.instance.ShowDialogUI(message);
+            //playerHP += 4;
 
-            playerHP += 4;
+            //SetBattleIsOver();
 
-            SetBattleIsOver();
+            //BuffOnFinish();//判定回合结束时生效的buff
 
-            BuffOnFinish();//判定回合结束时生效的buff
+            //playerTurn = false;
 
-            playerTurn = false;
+            // lastPlayerTurn = false;
 
-            lastPlayerTurn = false;
-
-            foreach (GameObject button in playerSkillButtons)
-                button.GetComponent<UnityEngine.UI.Button>().interactable = false;
+            //foreach (GameObject button in playerSkillButtons)
+            //  button.GetComponent<UnityEngine.UI.Button>().interactable = false;
         }
+    }
+    void PlayerRoundClick()
+    {
+        if (playerTurn == true) {
+            
+            PlayerRoundOver();
+        }
+            
+    }
+
+    void PlayerRoundOver() //玩家回合结算
+    {
+        
+
+        BuffOnFinish();//判定回合结束时生效的buff
+
+        playerTurn = false;
+
+        lastPlayerTurn = false;
+
+        foreach (GameObject button in playerSkillButtons)
+            button.GetComponent<UnityEngine.UI.Button>().interactable = false;
+        BattleUIManager.instance.ConfirmButton.onClick.RemoveAllListeners();
+        BattleUIManager.instance.CloseDialogUI();
+        HoldUpByUI = false;
+        SetBattleIsOver();
     }
 
     void EnemyTurn()
@@ -210,7 +279,7 @@ public class BattleSceneManager : MonoBehaviour
         {
             playerHP -= 6;
             enemySP -= 2;
-            Debug.Log("小怪使用2sp技能， 玩家-4hp");
+            Debug.Log("小怪使用2sp技能， 玩家-6hp");
         }
         else
         {
@@ -239,16 +308,38 @@ public class BattleSceneManager : MonoBehaviour
                     playerHP = playerMaxHP;
                 }
                 PlayerPrefs.SetInt("PlayerHp", playerHP);
+                List<Item> reward = GetWinReward();
+                string message = "战斗胜利！   恭喜获得：";
+                foreach (Item temp in reward)
+                {
+                    dataBase.AddItem(temp.ID);
+                    message += temp.Name + ",";
+                    //Debug.Log("congratulations");
+                    //Debug.Log(temp.Name);
+                }
+                BattleUIManager.instance.ShowDialogUI(message);
+                Debug.Log("结算UI");
+                BattleUIManager.instance.ConfirmButton.onClick.AddListener(delegate ()
+                {
+                    BattleWinOnClick();
+                }
+                   );
                 //win  恭喜獲得
             }
             else {
+                List<string> makeup = GetDeathMakeup();
+                foreach(string temp in makeup)
+                {
+                    //dataBase.AddItem(temp);
+                    Debug.Log("congratulations");
+                    Debug.Log(temp);
+                }
                 //lose
             }
             Debug.Log("战斗结束");
-
-            SceneManager.LoadScene("Play");
-
-
+            //
+            //SceneManager.LoadScene("Start");
+            
         }
         else
         {
@@ -256,6 +347,12 @@ public class BattleSceneManager : MonoBehaviour
         }
     }
 
+    void BattleWinOnClick()
+    {
+        BattleUIManager.instance.ConfirmButton.onClick.RemoveAllListeners();
+        BattleUIManager.instance.CloseDialogUI();
+        SceneManager.LoadScene("Play");
+    }
 
     //施放特殊效果。在switch的case中添加特殊效果代码。该function在每次玩家释放技能后运行
     void CastSpecialEffect(string skillName)
@@ -330,5 +427,221 @@ public class BattleSceneManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    List<Item> GetWinReward() {
+        int charNum = 5;
+        int extra = Random.Range(0, 5);
+        List<Item> reward = new List<Item>();
+        charNum += extra;
+        int enemyLevel = 1;
+        int level2SpecialNum = 2;
+        int level3SpecialNum = 3;
+        if (PlayerPrefs.HasKey("EnemyLevel"))
+        {
+            enemyLevel = PlayerPrefs.GetInt("EnemyLevel");
+        }
+        if (enemyLevel == 3) {
+            charNum = 8;
+            extra = Random.Range(0, 2);
+            charNum += extra;
+        }
+        for (int i = 0; i < charNum; i++) {
+            int level;
+            if (enemyLevel == 2 && level2SpecialNum > 0)
+            {
+                level = GetLevel2Special();
+                level2SpecialNum -= 1;
+            }
+            else if (enemyLevel == 3 && level3SpecialNum > 0)
+            {
+                level = GetLevel3Special();
+                level3SpecialNum -= 1;
+            }
+            else
+            {
+                level = GetLevelNorm(enemyHP);
+            }
+            reward.Add(SelectCharByLevel(level));
+        }
+        return reward;
+    }
+
+    Item SelectCharByLevel(int _level)
+    {
+        Item rewardChar = new Item();
+        int index;
+        switch (_level)
+        {
+            case 1:
+                    index = Random.Range(0, charLevel1.Count - 1);
+                    rewardChar = charLevel1[index];
+                    break;
+            case 2:
+                    index = Random.Range(0, charLevel2.Count - 1);
+                    rewardChar = charLevel2[index];
+                    break;
+            case 3:
+                    index = Random.Range(0, charLevel3.Count - 1);
+                    rewardChar = charLevel3[index];
+                    break;
+            case 4:
+                    index = Random.Range(0, charLevel4.Count - 1);
+                    rewardChar = charLevel4[index];
+                    break;
+        }
+        return rewardChar;
+    }
+
+    int GetLevelNorm(int _enemyLevel) {
+        int rateSelect = Random.Range(1,100);
+        int ans = 1;
+        switch (_enemyLevel) {
+            case 1:
+                if (rateSelect < 70)
+                {
+                    ans = 1;
+                }
+                else if (rateSelect >=  70 && rateSelect < 85)
+                {
+                    ans = 2;
+                }
+                else if (rateSelect >= 85 && rateSelect < 95)
+                {
+                    ans = 3;
+                }
+                else
+                {
+                    ans = 4;
+                }
+                break;
+            case 2:
+                if (rateSelect < 15)
+                {
+                    ans = 1;
+                }
+                else if (rateSelect >= 15 && rateSelect < 50)
+                {
+                    ans = 2;
+                }
+                else if (rateSelect >= 50 && rateSelect < 85)
+                {
+                    ans = 3;
+                }
+                else
+                {
+                    ans = 4;
+                }
+                break;
+            case 3:
+                if (rateSelect < 10)
+                {
+                    ans = 1;
+                }
+                else if (rateSelect >= 10 && rateSelect < 40)
+                {
+                    ans = 2;
+                }
+                else if (rateSelect >= 40 && rateSelect < 80)
+                {
+                    ans = 3;
+                }
+                else
+                {
+                    ans = 4;
+                }
+                break;
+        }
+        return ans;
+    }
+    int GetLevel2Special() {
+        int rateSelect = Random.Range(1, 100);
+        int ans = 1;
+        if (rateSelect < 20)
+        {
+            ans = 1;
+        }
+        else if (rateSelect >= 20 && rateSelect < 90)
+        {
+            ans = 2;
+        }
+        else if (rateSelect >= 90 && rateSelect < 100)
+        {
+            ans = 3;
+        }
+        else
+        {
+            ans = 4;
+        }
+        return ans;
+    }
+
+    int GetLevel3Special()
+    {
+        int rateSelect = Random.Range(1, 100);
+        int ans = 1;
+        if (rateSelect < 20)
+        {
+            ans = 1;
+        }
+        else if (rateSelect >= 20 && rateSelect < 40)
+        {
+            ans = 2;
+        }
+        else if (rateSelect >= 40 && rateSelect < 100)
+        {
+            ans = 3;
+        }
+        else
+        {
+            ans = 4;
+        }
+        return ans;
+    }
+
+    List<string> GetDeathMakeup()
+    {
+        List<string> makeup = new List<string>();
+        foreach (int tempId in dataBase.GetSkillHad())
+        {
+            foreach (CSkill tempSkill in dataBase.GetSkillData())
+            {
+                if (tempSkill.ID == tempId)
+                {
+                    foreach (char tempChar in tempSkill.Name)
+                    {
+                        string temp = tempChar.ToString();
+                        makeup.Add(temp);
+                    }
+                }
+            }
+        }
+        foreach (int charId in dataBase.GetItemHad())
+        {
+            foreach (Item tempItem in charDic)
+            {
+                if (tempItem.ID == charId)
+                {
+                    string tmp = tempItem.Name;
+                    makeup.Add(tmp);
+                }
+             }         
+        }
+        List<string> tempMakeup = new List<string>();
+        int makeupNum = 3;
+        if (makeupNum > makeup.Count) {
+            makeupNum = makeup.Count;
+        }
+        for (int i = 0; i < makeupNum; i++) {
+            int index = Random.Range(0, makeup.Count - 1);
+            tempMakeup.Add(makeup[index]);
+            makeup.Remove(makeup[index]);
+        }
+        dataBase.ClearAllSave();
+        foreach (string itemName in tempMakeup)
+        {
+            dataBase.AddItemByName(itemName);
+        }
+        return tempMakeup;
     }
 }

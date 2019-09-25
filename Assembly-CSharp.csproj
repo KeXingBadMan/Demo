@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Battle.cs" />
     <Compile Include="Assets\Scripts\BattleSceneManager.cs" />
+    <Compile Include="Assets\Scripts\BattleUIManager.cs" />
     <Compile Include="Assets\Scripts\BuffButton.cs" />
     <Compile Include="Assets\Scripts\CharsGenerator.cs" />
     <Compile Include="Assets\Scripts\ClassBuff.cs" />

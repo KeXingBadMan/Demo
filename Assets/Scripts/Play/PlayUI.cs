@@ -13,7 +13,7 @@ public class PlayUI : UIBase
         gameObject.SetActive(true);
         if(Exist == false)
         {
-            RandomMonster();
+            //RandomMonster();
             Exist = true;
         }
         //DontDestroyOnLoad(gameObject);

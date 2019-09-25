@@ -133,6 +133,16 @@ public class DataBase : MonoBehaviour
         PlayerPrefs.SetString("skills", new_skills);
     }
 
+    public void AddItemByName(string _name)
+    {
+        foreach (Item tempItem in itemDatabase)
+        {
+            if (tempItem.Name == _name) {
+                AddItem(tempItem.ID);
+            }
+        }
+    }
+
     public Item FetchItemDataByID(int _id)
     {
         for (int i = 0; i < itemData.Count; i++)
@@ -175,6 +185,8 @@ public class DataBase : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("skills");
         PlayerPrefs.DeleteKey("items");
+        skillLearned.Clear();
+        itemHad.Clear();
     }
 }
 

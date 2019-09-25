@@ -28,7 +28,8 @@ public class Play : MonoBehaviour
         }
         else
         {
-            string Map = RandomMap();
+            //string Map = RandomMap();
+            string Map = "Map1";
             UIManager.Instance.PushUIPanel(Map);
             DontDestroyOnLoad(GameObject.Find(Map));
         }

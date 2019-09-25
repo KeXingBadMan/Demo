@@ -25,7 +25,7 @@ public class GameRoot : MonoBehaviour
             SoundManager.Instance.PlayBGM("少年游");
             DontDestroyOnLoad(this.gameObject);
             UIManager.Instance.PushUIPanel("StartUI");
-            //DontDestroyOnLoad(GameObject.Find("StartUI"));
+            DontDestroyOnLoad(GameObject.Find("StartUI"));
         }
         
     }
